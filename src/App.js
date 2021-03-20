@@ -7,15 +7,16 @@ import SocialLinks from "./mainpage/SocialLinks.js";
 import WorkExperience from "./mainpage/WorkExperience.js";
 
 function App() {
-  const[appState , updateState] = useState({
-    name:"Ghada",
-    email:"ghada@gmail.com",
-    github:"gahda123@gmail"
-  }) ;
+  const [name, updatName] = useState("Default Name");
+  const [contanctInfo, updateContactInfo] = useState({
+    phone: "default phone",
+    address: "default address"
+  });
+
   return (
     <div className="app">
-      <h1> {appState.name} </h1>
-      <ContactInfo name={appState.name}></ContactInfo>
+      <h1> {name} </h1>
+      <ContactInfo contanctInfo={contanctInfo}></ContactInfo>
       <SocialLinks></SocialLinks>
       <Objectives></Objectives>
       <WorkExperience></WorkExperience>

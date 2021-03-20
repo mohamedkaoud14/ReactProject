@@ -1,11 +1,13 @@
-function ContactInfo(propc) {
+function ContactInfo({ phone, address }) {
   return (
-    <div className="section contact-info">
+
+    <div div className="section contact-info" >
       <h3>Contact Info</h3>
       <div>
-        <a>{propc.github}</a>|<a>GitHub</a>
+        <p> Phone Number: {phone}</p>
+        <p> Address: {address} </p>
       </div>
-    </div>
+    </div >
   );
 }
 
