@@ -4,6 +4,7 @@ import ContactInfo from "./mainpage/ContactInfo.js";
 import Education from "./mainpage/Education.js";
 import Objectives from "./mainpage/Objectives.js";
 import SocialLinks from "./mainpage/SocialLinks.js";
+import UpdateContactInfo from "./mainpage/UpdateContcatInfo";
 import WorkExperience from "./mainpage/WorkExperience.js";
 
 function App() {
@@ -15,11 +16,13 @@ function App() {
   return (
     <div className="app">
       <h1> {appState.name} </h1>
+      
       <ContactInfo name={appState.name}></ContactInfo>
       <SocialLinks></SocialLinks>
       <Objectives></Objectives>
       <WorkExperience></WorkExperience>
       <Education></Education>
+      <UpdateContactInfo></UpdateContactInfo>
       <header className="App-header"></header>
     </div>
   );

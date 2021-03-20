@@ -3,7 +3,8 @@ function ContactInfo(propc) {
     <div className="section contact-info">
       <h3>Contact Info</h3>
       <div>
-        <a>{propc.github}</a>|<a>GitHub</a>
+        <a>{propc.name}</a>
+        <a>{propc.email}</a>
       </div>
     </div>
   );
