@@ -1,9 +1,9 @@
-function ContactInfo() {
+function ContactInfo(propc) {
   return (
     <div className="section contact-info">
       <h3>Contact Info</h3>
       <div>
-        <a>Email</a>|<a>GitHub</a>
+        <a>{propc.github}</a>|<a>GitHub</a>
       </div>
     </div>
   );
