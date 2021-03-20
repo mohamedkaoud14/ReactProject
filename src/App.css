@@ -1,4 +1,28 @@
-.contact-info{
+body {
+  color: rgb(70, 31, 70);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+.app {
+  padding: 10px;
+}
 
-  background-color:  red;
+.section {
+  background-color: teal;
+  width: 80%;
+}
+h1 {
+  text-align: center;
+  color: rgb(31, 28, 68);
+  background-color: ;
+}
+h3 {
+  color: rgb(31, 28, 68);
+  font-size: larger;
+}
+.contact-info,
+.social-links {
+  display: inline-block;
+  width: 40%;
+  margin-left: 10px;
 }

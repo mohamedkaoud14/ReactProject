@@ -2,7 +2,7 @@ function WorkExperience() {
 
   return (
 
-    <div className="work-experience">
+    <div className="section work-experience">
       <h3>Work Experience</h3>
       <div>
         <ul>
