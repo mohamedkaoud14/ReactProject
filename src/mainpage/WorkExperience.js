@@ -1,9 +1,8 @@
-import React from 'react';
-import {Component} from 'react'
-
 function WorkExperience() {
-    return(
-    <div className="work_experience">
+
+  return (
+
+    <div className="work-experience">
       <h3>Work Experience</h3>
       <div>
         <ul>
@@ -11,12 +10,13 @@ function WorkExperience() {
             X Company
           </li>
           <li>
-             Intership
+            Intership
           </li>
 
         </ul>
       </div>
     </div>
-       
-        );
-      }
+
+  );
+}
+export default WorkExperience;

@@ -1,18 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import {Component} from 'react'
-import ContactInfo from './ContactInfo.js'
-import SocialLinks from './SocialLinks.js'
+import './App.css';
+import ContactInfo from './mainpage/ContactInfo.js';
+import Education from './mainpage/Education.js';
+import Objectives from './mainpage/Objectives.js';
+import SocialLinks from './mainpage/SocialLinks.js';
+import WorkExperience from './mainpage/WorkExperience.js';
 
 function App() {
   return (
-    <div className="App">
+
+    <div className="">
+      <ContactInfo></ContactInfo>
+      <SocialLinks></SocialLinks>
+      <Objectives></Objectives>
+      <WorkExperience></WorkExperience>
+      <Education></Education>
       <header className="App-header">
-        
-        
       </header>
     </div>
+
   );
 }
 
@@ -20,8 +26,8 @@ function App() {
 
 
 
-  
 
-    
+
+
 
 export default App;
